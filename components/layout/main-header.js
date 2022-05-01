@@ -1,5 +1,5 @@
 import Link from "next/link";
-import classes from  "./header.module.scss";
+import classes from "./header.module.scss";
 
 export default function MainHeader() {
   return (
@@ -11,6 +11,12 @@ export default function MainHeader() {
         <ul>
           <li>
             <Link href="/apod">APOD</Link>
+          </li>
+          <li>
+            <Link href="/Earth">Earth</Link>
+          </li>
+          <li>
+            <Link href="/Mars">Mars</Link>
           </li>
         </ul>
       </nav>

@@ -11,8 +11,24 @@ a {
   text-decoration: none;
 }
 
+header {
+  position: absolute;
+  z-index: 10;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
 main {
   overflow: hidden;
+  background-image: url("../public/space-bg.jpg");
+  width: 100vw;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: black;
+  background-size: 200%;
+  
 }
 
 * {

@@ -1,11 +1,10 @@
 import Head from "next/head";
 import Image from "next/image";
-import styles from "../styles/Home.module.scss";
-
+import classes from "../styles/Home.module.scss";
 
 export default function Home() {
   return (
-    <div className={styles.bg_div}>
+    <div className={classes.homeDiv}>
       <h1>Nasa API</h1>
     </div>
   );
